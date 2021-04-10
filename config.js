@@ -13,10 +13,10 @@
 
 const config = {
   ssh: {
-    host: 'zzjdedn.top',
-    port: '22',
-    username: 'root',
-    password: 'Zzj124689'
+    host: 'zzjdedn.top', // 自己服务器的主机IP或者域名
+    port: '22', // ssh默认端口
+    username: 'root', // 自己服务器的用户名
+    password: 'xxx' // 自己服务器的密码
   },
   targetDir: '../vue3-demo/dist', // 目标压缩目录(可使用相对地址)
   targetFile: 'dist.zip', // 目标文件
